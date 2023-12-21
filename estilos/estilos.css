@@ -1,0 +1,78 @@
+:root {
+    --Primary-Colors-brand-green: #00856F;
+    --Primary-Colors-brand-green-light: #DCE9E2;
+    --Primary-Colors-brand-green-light-02: #F7F9F9;
+    --Primary-Colors-brand-beige: #FFFAF1;
+    --Secondary-Colors-White: #FFF;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.Header-Desktop {
+    width: 1366px;
+    height: 72px;
+
+    background: var(--Primary-Colors-brand-green);
+}
+
+.Hero-section {
+    width: 1366px;
+    height: 678px;
+    flex-shrink: 0;
+
+    background: var(--Primary-Colors-brand-green-light);
+}
+
+.Header-Menu {
+    width: 1366px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.Services-section {
+    width: 1366px;
+    height: 1082px;
+    flex-shrink: 0;
+
+    background: var(--Primary-Colors-brand-green-light-02);
+}
+
+.About-section {
+    width: 1366px;
+    display: inline-flex;
+    padding: 160px 123px;
+    justify-content: center;
+    align-items: center;
+    gap: 67px;
+
+    background: var(--Primary-Colors-brand-beige);
+}
+
+.Contact-section {
+    display: flex;
+    width: 1366px;
+    padding: 160px 123px;
+    justify-content: center;
+    align-items: center;
+    gap: 141px;
+
+    background: var(--Secondary-Colors-White);
+}
+
+footer {
+    width: 1366px;
+    display: inline-flex;
+    padding: 80px 122px 80px 123px;
+    justify-content: center;
+    align-items: center;
+    gap: 729px;
+
+    background: var(--Primary-Colors-brand-green);
+}
