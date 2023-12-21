@@ -6,73 +6,113 @@
     --Secondary-Colors-White: #FFF;
 }
 
-html {
-    width: 100vw;
-}
-
+html,
 body {
-    width: 100%;
+    width: 100vw;
+    max-width: 1366px;
     margin: 0;
 }
 
-.Header-Desktop {
-    width: 1366px;
-    height: 72px;
-
-    background: var(--Primary-Colors-brand-green);
+.maq {
+    border: 1px solid rgb(0, 0, 0);
 }
 
+/* Header from here ---------------------------------------- */
+
+.Header-Desktop {
+    width: 100%;
+    height: 72px;
+
+    background: var(--Primary-Colors-brand-green-light);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Web-title {
+    width: 132.864px;
+    height: 17.376px;
+    flex-shrink: 0;
+}
+
+.Header-Menu {
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.Primary-button {
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Hero section from here -------------------------------------- */
+
 .Hero-section {
-    width: 1366px;
+    width: 100%;
     height: 678px;
     flex-shrink: 0;
 
     background: var(--Primary-Colors-brand-green-light);
+
+    display: grid;
+    grid-template-areas:
+        "div-text . img"
+        "div-number div-number div-number"
+    ;
+
 }
 
-.Header-Menu {
-    width: 1366px;
-    height: 72px;
-    flex-shrink: 0;
+.Hero-div-text {
+    grid-area: div-text;
 }
+
+.Hero-img {
+    grid-area: img;
+}
+
+.div-numbers {
+    grid-area: div-number;
+}
+
+/* Services section from here ------------------------------------------ */
 
 .Services-section {
-    width: 1366px;
+    width: 100%;
     height: 1082px;
     flex-shrink: 0;
 
     background: var(--Primary-Colors-brand-green-light-02);
 }
 
+/* About section from here --------------------------------------------- */
+
 .About-section {
-    width: 1366px;
-    display: inline-flex;
-    padding: 160px 123px;
-    justify-content: center;
-    align-items: center;
-    gap: 67px;
+    width: 100%;
+    height: 734px;
 
     background: var(--Primary-Colors-brand-beige);
 }
 
+/* Contact section from here ------------------------------------------- */
+
 .Contact-section {
-    display: flex;
-    width: 1366px;
-    padding: 160px 123px;
-    justify-content: center;
-    align-items: center;
-    gap: 141px;
+    width: 100%;
+    height: 699px;
 
     background: var(--Secondary-Colors-White);
 }
 
+/* Footer from here ---------------------------------------------------- */
+
 footer {
-    width: 1366px;
-    display: inline-flex;
-    padding: 80px 122px 80px 123px;
-    justify-content: center;
-    align-items: center;
-    gap: 729px;
+    width: 100%;
+    height: 268px;
 
     background: var(--Primary-Colors-brand-green);
 }
+
+/* Mobile adaptation from here ----------------------------------------- */
