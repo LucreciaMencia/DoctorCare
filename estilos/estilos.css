@@ -10,15 +10,25 @@ html,
 body {
     width: 100vw;
     height: 100vh;
-    max-width: 1366px;
     margin: 0;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    max-width: 1366px;
 }
 
 .maq {
     border: 1px solid rgb(0, 0, 0);
 }
 
-/* Header from here ---------------------------------------- */
+/* Header from here ------------------------------------------- */
 
 .Header-Desktop {
     width: 100%;
@@ -84,25 +94,24 @@ picture {
 
 
 .Hero-div-text {
-    width: 605px;
+    width: 140%;
     height: 335px;
     flex-shrink: 0;
-    margin-top: 80px;
-    margin-left: 80px;
+    margin-top: 18%;
+    margin-left: 15%;
 
     grid-area: div-text;
 }
 
 .Hero-img {
-    width: 401px;
+    width: 90%;
     height: 547px;
-    margin-right: 100px;
-
+    margin-left: -30%;
     grid-area: img;
 }
 
 .div-numbers {
-    width: 1120px;
+    width: 90%;
     height: 210px;
     margin-top: -4%;
     margin-bottom: -8%;
@@ -111,7 +120,7 @@ picture {
     justify-self: center;
 }
 
-/* Services section from here ------------------------------------------ */
+/* Services section from here ----------------------------------- */
 
 .Services-section {
     width: 100%;
@@ -149,7 +158,7 @@ picture {
     align-self: center;
 }
 
-/* About section from here --------------------------------------------- */
+/* About section from here --------------------------------------- */
 
 .About-section {
     width: 100%;
@@ -176,7 +185,7 @@ picture {
     margin-right: 9%;
 }
 
-/* Contact section from here ------------------------------------------- */
+/* Contact section from here -------------------------------------- */
 
 .Contact-section {
     width: 100%;
@@ -203,7 +212,7 @@ picture {
     margin-bottom: 8%;
 }
 
-/* Footer from here ---------------------------------------------------- */
+/* Footer from here ------------------------------------------------ */
 
 footer {
     width: 100%;
@@ -230,7 +239,7 @@ footer {
     margin-right: 9%;
 }
 
-/* Tablet adaptation from here ----------------------------------------- */
+/* Tablet adaptation from here -------------------------------------- */
 
 @media screen and (max-width: 960px) {
 
@@ -257,7 +266,7 @@ footer {
         margin-left: 5%;
     }
 
-    /* Hero section - Mobile from here -----------------------------*/
+    /* Hero section - Mobile from here ------------------------------*/
 
     .Hero-section {
         display: flex;
@@ -353,6 +362,6 @@ footer {
     }
 }
 
-/* Mobile adaptation from here ----------------------------------------- */
+/* Mobile adaptation from here --------------------------------------- */
 
 @media screen and (min-width:321px) and (max-width:480px) {}
