@@ -52,7 +52,7 @@ mql.addEventListener("change", screenTest);
     
     @media screen and (min-width:321px) and (max-width:480px){}
     @media screen and (min-width:481px) and (max-width:960px){}
-    @media screen and (min-width:961px) and (max-width:1328){}
+    @media screen and (min-width:961px){}
     
     que es lanscape y como utilizarlo?
 

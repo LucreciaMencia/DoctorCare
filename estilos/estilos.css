@@ -230,11 +230,11 @@ footer {
     margin-right: 9%;
 }
 
-/* Mobile adaptation from here ----------------------------------------- */
+/* Tablet adaptation from here ----------------------------------------- */
 
 @media screen and (min-width:481px) and (max-width: 960px) {
 
-    /* Mobile Header section from here -----------------------------*/
+    /* Header section - Mobile from here -----------------------------*/
     .Header-Menu {
         display: none;
     }
@@ -247,7 +247,7 @@ footer {
         display: block;
     }
 
-    /* Mobile Hero section from here -----------------------------*/
+    /* Hero section - Mobile from here -----------------------------*/
 
     .Hero-section {
         grid-template-areas:
@@ -264,4 +264,37 @@ footer {
 
     .div-numbers {
     } */
+
+    /* Services section - Mobile from here ------------------------- */
+
+    /* About section - Mobile from here ---------------------------- */
+
+    .About-section {
+        flex-direction: column;
+    }
+
+    .about-div-text {
+        margin-bottom: 9%;
+    }
+
+    /* Contact section - Mobile from here -------------------------- */
+
+    .Contact-section {
+        flex-direction: column;
+    }
+
+    .contact-div {
+        margin-top: 9%;
+    }
+
+    /* Footer - Mobile from here ----------------------------------- */
+
+    footer {
+        flex-direction: column;
+    }
+
 }
+
+/* Mobile adaptation from here ----------------------------------------- */
+
+@media screen and (min-width:321px) and (max-width:480px) {}
